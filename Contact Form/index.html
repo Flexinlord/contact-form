@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <link rel="stylesheet" href="CSS/styles.css"> <!-- Link to the external stylesheet -->
+</head>
+<body>
+
+  
+
+  <form>
+    <h1>Contact Us</h1>
+    <div class="name-fields">
+      <div class="input-group">
+        <label for="name">First Name *</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="name">Last Name *</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label for="email">Email Address *</label><br>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="query-fields">
+      <div class="input-group">
+        <label for="General">Query Type *</label>
+        <input type="Query" name="Query" placeholder="General Enquiry">
+      </div>
+      <div class="input-group">
+        <label for="Support"></label><br>
+        <input type="Query" name="Query" placeholder="Support Request">
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label for="message">Message *</label><br>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    
+   
+    <div>
+      <input type="checkbox" id="consent" name="consent" required>
+      <label for="consent">I consent to being contacted by the team *</label>
+    </div>
+    
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+      
+    
+      
+  </form>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Maduh Chibuike Justin</a>.
+  </div>
+
+  <script src="index.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
